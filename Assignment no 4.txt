@@ -1,0 +1,16 @@
+		Assignment no 4
+
+Name  :Onkar Patil
+Student Id :200240320070
+center    :Kharghar
+
+===========================================================
+1) select Onum,Amt,odate from orders;
+
+2)select * from customers where Snum=1001;
+
+3)select city,sname,snum,comm from salespeople;
+
+4)select cname,rating from customers where city='San Jose';
+
+5) select distinct Snum,onum from orders;
