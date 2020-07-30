@@ -21,7 +21,7 @@ create index i_snum_odate on orders (snum,odate);
 4) Let us assume that each salesperson is to have only one customer of a given
 rating, and that this is currently the case. Enter a command that enforces it.
 
-
+create unique index i_rating on customers(rating);
 
 
 ==============================================================================================================
